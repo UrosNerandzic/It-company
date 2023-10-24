@@ -1,0 +1,181 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 25/02/2023, 9:15:07 PM
+    Author     : katar
+*/
+
+
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato&display=swap');
+
+/*
+font-family: 'Anton', sans-serif;
+font-family: 'Lato', sans-serif;
+*/
+img{
+    max-width: 100%;
+}
+body{
+    color:#2C2D3C;
+    font-family: 'Lato', sans-serif;
+}
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6{
+    font-family: 'Anton', sans-serif;
+    color: #6DD1FF;
+}
+
+p{
+    line-height: 26px;
+    font-size: 18px;
+    letter-spacing: 0.7px;
+}
+/*NAV-STYLE*/
+.navbar-toggler span{
+    width:30px;
+    height: 3px;
+    margin-bottom: 5px;
+    display: block;
+    background-color: #1085EA ; 
+}
+.navbar-toggler span:last-of-type{
+    margin-bottom: 0;
+}
+.navbar-light .navbar-nav .nav-link{
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.53px;
+    color:#A8A8A8;
+    text-align: center;
+    border-top:2px solid #fff;
+    
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover{
+    border-top:2px solid #1085EA;
+    color: #1085EA;
+}
+/*HOME-STYLE*/
+.buttom-home{
+    background: linear-gradient(139.4deg, #1085EA 0%, #0E9FE2 100%);
+    font-family: 'Anton', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.82px;
+    width: 166px;
+}
+
+.home-section .carousel-item{
+  background-repeat: no-repeat;
+  background-position: right center; 
+  background-size: contain;
+  
+}
+
+.home-section .carousel-item .caption h2{
+    color: #6DD1FF;
+}
+.carousel-indicators {
+  position: absolute;
+  bottom: 30px;
+  z-index: 15;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-left: 0;
+  margin-right: 0%;
+  margin-left: 0%;
+  list-style: none;
+}
+.carousel-indicators li {
+  width:  11px;
+  height: 11px;
+  border-radius: 50%;
+  margin-right: 19px;
+  margin-left: 0;
+  background-color: #6DD1FF;
+  border-top: 0px solid transparent;
+  border-bottom: 0px solid transparent;
+  opacity: 0.5;
+  transition: opacity 0.6s ease;
+}
+/*ABOUT-STYLE*/
+.about-section{
+    margin-bottom: 90px!important;
+}
+/*SERVICES-STYLE*/
+.services-text{
+    font-size: 14px;
+    letter-spacing: 0.54px;
+}
+.services-h{
+    color: #1085EA;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.71px;
+    font-family: 'Anton', sans-serif !important;
+    text-transform: uppercase;
+}
+/*PORTFOLIO-STIFLE*/
+.buttom-portfolio{
+    background: linear-gradient(139.4deg, #1085EA 0%, #0E9FE2 100%);
+    font-family: 'Anton', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.82px;
+    width: 166px;
+}
+.portfolio-title{
+    font-size: 40px;
+    line-height: 84px;
+    letter-spacing: 0.67px;
+}
+.portfolio-section .portfolio-item .buttom-portfolio{
+    left: 49px;
+    right: 49px;
+    width: 166px;
+    top:116px;
+    display: none;
+}
+.portfolio-section .portfolio-item:hover .buttom-portfolio{
+    display:block;
+    
+}
+.portfolio-section .portfolio-item img{
+   
+    transition: 0.5s linear;
+}
+.portfolio-section .portfolio-item:hover img{
+    transform: scale(1.2);
+}
+/*CONTACT-STYLE*/
+.contact-section{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.transparent-input{
+       background-color:rgba(0,0,0,0) !important;
+       border: 1px solid #FFFFFF;
+    }
+input::placeholder {
+    color: white!important;
+}
+.textarea-contact::placeholder{
+    color: white!important;
+}
+.contact-title{
+    padding-top: 130px;
+    line-height: 84px;
+    font-size: 40px;
+    letter-spacing: 0.67px;
+}
+/*FOOTER-STYLE*/
+.footer-text{
+    font-size: 14px;
+    letter-spacing: 0.72px;
+}
+

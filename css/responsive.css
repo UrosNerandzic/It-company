@@ -1,0 +1,95 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 25/02/2023, 9:15:18 PM
+    Author     : katar
+*/
+
+/*
+
+>0px XS (exstra small)-NO NAME
+
+> 576px SM-small devices
+
+>768px MD - medium devices
+
+>992px LG - large devices
+
+>1200px XL extra large devices
+
+*/
+
+@media(min-width:576px){
+
+}
+
+
+@media(min-width:768px){
+    .navbar-light .navbar-nav .nav-link{
+        border-top:2px solid transparent;
+        padding:15px;
+        text-align: left;
+    }
+}
+
+
+@media(min-width:992px){
+        .navbar-light .navbar-nav .nav-link{
+        border-top:2px solid transparent;
+        padding:25px;
+    }
+    /*home-section*/
+.home-section .carousel-item{
+        padding: 120px 0;
+        background-position: 145% 0%; 
+        background-size: auto;
+        
+    }   
+.home-section .carousel-item .caption{
+    width: 48%;
+    max-width: 555px;
+}
+.home-section .carousel-item .caption h2{
+    font-size:60px;
+    line-height: 84px;
+    letter-spacing: 1px;
+    color: #6DD1FF;
+}
+/*section-about*/
+    .container-about{
+        position: absolute;
+    }
+.img-about{
+    right:170px;
+}
+.container-about{
+    top:900px;
+}
+/*section-portfolio*/
+.portfolio-section .portfolio-item .buttom-portfolio{
+    left: 25px;
+    right: 49px;
+    width: 166px;
+    top:92px;  
+}
+}
+
+
+@media(min-width:1200px){
+    .container{
+        max-width: 1170px;
+    }
+    .navbar-light .navbar-nav .nav-item{
+        margin-left: 25px;
+    }
+/*   section-about*/
+.img-about{
+    right:150px;
+}
+.container-about{
+    top:900px;
+}
+
+}
